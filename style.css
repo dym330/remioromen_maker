@@ -1,0 +1,56 @@
+* {
+ /* ブラウザ独自の隙間をリセット */
+ margin: 0;
+ padding: 0;
+ /* box-sizingがcontent-boxがデフォルトでありcontentは扱いづらいため変更 */
+ box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+
+main {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'DotGothic16';
+  margin: 10px;
+}
+
+.button {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: blue;
+  border-style: none;
+  color: white;
+}
+
+.button-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
